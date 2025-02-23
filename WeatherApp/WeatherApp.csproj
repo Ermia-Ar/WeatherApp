@@ -1,0 +1,150 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Images\a01d.png" />
+    <None Remove="Images\a01n.png" />
+    <None Remove="Images\a02d.png" />
+    <None Remove="Images\a02n.png" />
+    <None Remove="Images\a03d.png" />
+    <None Remove="Images\a03n.png" />
+    <None Remove="Images\a04d.png" />
+    <None Remove="Images\a04n.png" />
+    <None Remove="Images\a05d.png" />
+    <None Remove="Images\a05n.png" />
+    <None Remove="Images\a06d.png" />
+    <None Remove="Images\a06n.png" />
+    <None Remove="Images\c01d.png" />
+    <None Remove="Images\c01n.png" />
+    <None Remove="Images\c02d.png" />
+    <None Remove="Images\c02n.png" />
+    <None Remove="Images\c03d.png" />
+    <None Remove="Images\c03n.png" />
+    <None Remove="Images\c04d.png" />
+    <None Remove="Images\c04n.png" />
+    <None Remove="Images\d01d.png" />
+    <None Remove="Images\d01n.png" />
+    <None Remove="Images\d02d.png" />
+    <None Remove="Images\d02n.png" />
+    <None Remove="Images\d03d.png" />
+    <None Remove="Images\d03n.png" />
+    <None Remove="Images\f01d.png" />
+    <None Remove="Images\f01n.png" />
+    <None Remove="Images\r01d.png" />
+    <None Remove="Images\r01n.png" />
+    <None Remove="Images\r02d.png" />
+    <None Remove="Images\r02n.png" />
+    <None Remove="Images\r03d.png" />
+    <None Remove="Images\r03n.png" />
+    <None Remove="Images\r04d.png" />
+    <None Remove="Images\r04n.png" />
+    <None Remove="Images\r05d.png" />
+    <None Remove="Images\r05n.png" />
+    <None Remove="Images\r06d.png" />
+    <None Remove="Images\r06n.png" />
+    <None Remove="Images\s01d.png" />
+    <None Remove="Images\s01n.png" />
+    <None Remove="Images\s02d.png" />
+    <None Remove="Images\s02n.png" />
+    <None Remove="Images\s03d.png" />
+    <None Remove="Images\s03n.png" />
+    <None Remove="Images\s04d.png" />
+    <None Remove="Images\s04n.png" />
+    <None Remove="Images\s05d.png" />
+    <None Remove="Images\s05n.png" />
+    <None Remove="Images\s06d.png" />
+    <None Remove="Images\s06n.png" />
+    <None Remove="Images\t01d.png" />
+    <None Remove="Images\t01n.png" />
+    <None Remove="Images\t02d.png" />
+    <None Remove="Images\t02n.png" />
+    <None Remove="Images\t03d.png" />
+    <None Remove="Images\t03n.png" />
+    <None Remove="Images\t04d.png" />
+    <None Remove="Images\t04n.png" />
+    <None Remove="Images\t05d.png" />
+    <None Remove="Images\t05n.png" />
+    <None Remove="Images\u00d.png" />
+    <None Remove="Images\u00n.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="OxyPlot.Wpf" Version="2.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\a01d.png" />
+    <Resource Include="Images\a01n.png" />
+    <Resource Include="Images\a02d.png" />
+    <Resource Include="Images\a02n.png" />
+    <Resource Include="Images\a03d.png" />
+    <Resource Include="Images\a03n.png" />
+    <Resource Include="Images\a04d.png" />
+    <Resource Include="Images\a04n.png" />
+    <Resource Include="Images\a05d.png" />
+    <Resource Include="Images\a05n.png" />
+    <Resource Include="Images\a06d.png" />
+    <Resource Include="Images\a06n.png" />
+    <Resource Include="Images\c01d.png" />
+    <Resource Include="Images\c01n.png" />
+    <Resource Include="Images\c02d.png" />
+    <Resource Include="Images\c02n.png" />
+    <Resource Include="Images\c03d.png" />
+    <Resource Include="Images\c03n.png" />
+    <Resource Include="Images\c04d.png" />
+    <Resource Include="Images\c04n.png" />
+    <Resource Include="Images\d01d.png" />
+    <Resource Include="Images\d01n.png" />
+    <Resource Include="Images\d02d.png" />
+    <Resource Include="Images\d02n.png" />
+    <Resource Include="Images\d03d.png" />
+    <Resource Include="Images\d03n.png" />
+    <Resource Include="Images\f01d.png" />
+    <Resource Include="Images\f01n.png" />
+    <Resource Include="Images\r01d.png" />
+    <Resource Include="Images\r01n.png" />
+    <Resource Include="Images\r02d.png" />
+    <Resource Include="Images\r02n.png" />
+    <Resource Include="Images\r03d.png" />
+    <Resource Include="Images\r03n.png" />
+    <Resource Include="Images\r04d.png" />
+    <Resource Include="Images\r04n.png" />
+    <Resource Include="Images\r05d.png" />
+    <Resource Include="Images\r05n.png" />
+    <Resource Include="Images\r06d.png" />
+    <Resource Include="Images\r06n.png" />
+    <Resource Include="Images\s01d.png" />
+    <Resource Include="Images\s01n.png" />
+    <Resource Include="Images\s02d.png" />
+    <Resource Include="Images\s02n.png" />
+    <Resource Include="Images\s03d.png" />
+    <Resource Include="Images\s03n.png" />
+    <Resource Include="Images\s04d.png" />
+    <Resource Include="Images\s04n.png" />
+    <Resource Include="Images\s05d.png" />
+    <Resource Include="Images\s05n.png" />
+    <Resource Include="Images\s06d.png" />
+    <Resource Include="Images\s06n.png" />
+    <Resource Include="Images\t01d.png" />
+    <Resource Include="Images\t01n.png" />
+    <Resource Include="Images\t02d.png" />
+    <Resource Include="Images\t02n.png" />
+    <Resource Include="Images\t03d.png" />
+    <Resource Include="Images\t03n.png" />
+    <Resource Include="Images\t04d.png" />
+    <Resource Include="Images\t04n.png" />
+    <Resource Include="Images\t05d.png" />
+    <Resource Include="Images\t05n.png" />
+    <Resource Include="Images\u00d.png" />
+    <Resource Include="Images\u00n.png" />
+  </ItemGroup>
+
+</Project>
